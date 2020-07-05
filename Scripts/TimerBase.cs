@@ -72,9 +72,6 @@ namespace CM.Timing
 			Reset();
 		}
 
-		protected abstract void OnStart();
-		protected abstract void OnStop();
-
 		/// <summary>
 		/// Starts running the timer.
 		/// </summary>
@@ -108,6 +105,9 @@ namespace CM.Timing
 		{
 			CurrentTime = TotalTime;
 		}
+
+		protected abstract void OnStart();
+		protected abstract void OnStop();
 
 		protected void InvokeOnFinish()
 		{
