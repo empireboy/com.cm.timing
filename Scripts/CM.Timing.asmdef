@@ -1,0 +1,15 @@
+{
+    "name": "CM.Timing",
+    "references": [
+        "GUID:54870d9dc05140743a17ef9fb7e188bb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
