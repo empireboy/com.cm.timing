@@ -3,15 +3,15 @@ using System;
 
 namespace CM.Timing
 {
-	/// <summary>
-	/// Represents the base of a Start/Stop Timer with a given time in seconds.
-	/// </summary>
-	public abstract class TimerBase
+    /// <summary>
+    /// Represents the base of a Start/Stop Timer with a given time in seconds.
+    /// </summary>
+    public abstract class TimerBase
 	{
 		/// <summary>
 		/// An event for when the timer finishes.
 		/// </summary>
-		public event SimpleEvent OnFinish;
+		public event SimpleEvent OnFinished;
 
 		/// <summary>
 		/// The total time to use for the timer.
@@ -25,7 +25,7 @@ namespace CM.Timing
 			set
 			{
 				if (value <= 0)
-					throw new Exception("TotalTime can't be less than or equal to zero.");
+					throw new ArgumentOutOfRangeException("TotalTime can't be less than or equal to zero.");
 
 				_totalTime = value;
 			}
@@ -111,7 +111,7 @@ namespace CM.Timing
 
 		protected void InvokeOnFinish()
 		{
-			OnFinish?.Invoke();
+			OnFinished?.Invoke();
 		}
 	}
 }

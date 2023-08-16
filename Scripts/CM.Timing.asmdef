@@ -1,7 +1,8 @@
 {
     "name": "CM.Timing",
+    "rootNamespace": "",
     "references": [
-        "GUID:54870d9dc05140743a17ef9fb7e188bb"
+        "CM.Events"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
