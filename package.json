@@ -6,7 +6,7 @@
     "author": "Casper Meloen",
     "description": "CM Timing is a platform independent package for time related classes. This package will add base classes like TimerBase, StopwatchBase etc...",
     "dependencies": {
-        "com.cm.events": "https://github.com/empireboy/com.cm.utility.git"
+        "com.cm.utility": "https://github.com/empireboy/com.cm.utility.git"
     },
     "repository": {
         "type": "git",
