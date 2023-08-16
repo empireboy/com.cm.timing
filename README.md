@@ -1,4 +1,4 @@
-# CM Timing V0.1.0
+# CM Timing v0.1.1
 
 CM Timing is a platform independent package for time related classes. This package will add base classes like TimerBase, StopwatchBase etc...
 
